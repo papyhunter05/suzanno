@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Suzanno Irwin MAHARAVO — Software Developer"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "cmd": "whoami",
+    "greeting": "Hi, I'm",
+    "role": "Software Developer — Web, Mobile & Networks",
+    "tagline": "Computer science student at ENI Fianarantsoa, I build robust web and mobile applications and have a strong interest in networks and systems. Drive, rigor and technical curiosity guide every project I take on.",
+    "ctaProjects": "View my projects",
+    "ctaContact": "Get in touch",
+    "location": "Fianarantsoa, Madagascar",
+    "available": "Available for an internship",
+    "nodeWeb": "Web",
+    "nodeMobile": "Mobile",
+    "nodeSystems": "Systems",
+    "nodeNetwork": "Networks",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "Introduction",
+    "title": "About",
+    "titleHighlight": "me",
+    "bio": "Computer science student at ENI university, I'm looking to grow my professional skills within an organization where I can bring my drive and technical know-how while contributing to innovative projects.",
+    "factsTitle": "At a glance",
+    "factLocation": "Location",
+    "factDob": "Date of birth",
+    "factLanguages": "Languages",
+    "factInterests": "Interests",
+    "dobValue": "September 13, 2005",
+    "languagesValue": "French, English",
+    "interestsValue": "Reading, Football",
+    "educationTitle": "Education",
+    "education": [
+      {
+        "degree": "Bachelor's Degree in Computer Science",
+        "school": "École Nationale d'Informatique (ENI), Fianarantsoa",
+        "period": "Jan. 2023 — Dec. 2025",
+        "detail": "General computer science track, software engineering & systems."
+      },
+      {
+        "degree": "Baccalauréat (High School Diploma)",
+        "school": "Lycée Rakotoarisoa, Ambositra",
+        "period": "2022 — 2023",
+        "detail": "Science track."
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Tech stack",
+    "title": "Technical",
+    "titleHighlight": "skills",
+    "subtitle": "A hybrid profile between software development and network administration.",
+    "categories": [
+      {
+        "name": "Programming languages",
+        "items": ["C++", "C#", "Java", "Python", "JavaScript", "TypeScript"]
+      },
+      {
+        "name": "Frameworks & libraries",
+        "items": ["Node.js", "React.js", "Spring Boot", "React Native"]
+      },
+      {
+        "name": "Design methods",
+        "items": ["MERISE", "UML", "Scrum / Agile"]
+      },
+      {
+        "name": "Databases",
+        "items": ["PostgreSQL", "MySQL"]
+      },
+      {
+        "name": "Network tools",
+        "items": ["Wireshark", "Zabbix", "Nagios", "Fail2Ban", "Asterisk"]
+      },
+      {
+        "name": "Operating systems",
+        "items": ["Windows", "Linux / Unix"]
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Background",
+    "title": "Work",
+    "titleHighlight": "experience",
+    "items": [
+      {
+        "role": "Software developer intern",
+        "company": "Toamasina Customs",
+        "place": "Toamasina, Madagascar",
+        "period": "Sept. 2025 — Nov. 2025",
+        "tasks": [
+          "Development of a system for monitoring economic performance and customs efficiency (SPEED)."
+        ]
+      },
+      {
+        "role": "Software developer intern",
+        "company": "Ministry of Economy and Finance — Regional Budget Department, Amoron'i Mania",
+        "place": "Ambositra, Madagascar",
+        "period": "Sept. 2024 — Nov. 2024",
+        "tasks": [
+          "Development of a web application for managing medical expense reimbursements.",
+          "Development of a budget tracking application."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Work",
+    "title": "My",
+    "titleHighlight": "projects",
+    "subtitle": "A look at my work, spanning software development and network infrastructure.",
+    "placeholder": "Description coming soon.",
+    "viewGithub": "View on GitHub",
+    "viewProfile": "See all my projects on GitHub",
+    "items": [
+      {
+        "title": "Asterisk — IP Telephony",
+        "tech": ["Asterisk", "VoIP", "Linux"],
+        "description": ""
+      },
+      {
+        "title": "Remote network control",
+        "tech": ["Networking", "Remote administration"],
+        "description": ""
+      },
+      {
+        "title": "Clinic management system",
+        "tech": ["C++"],
+        "description": ""
+      },
+      {
+        "title": "Employee management platform",
+        "tech": ["PHP", "JavaScript"],
+        "description": ""
+      },
+      {
+        "title": "Professional appointments (mobile)",
+        "tech": ["Mobile", "Geolocation", "Maps"],
+        "description": ""
+      },
+      {
+        "title": "SPEED — Customs monitoring",
+        "tech": ["Web", "Database"],
+        "description": ""
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "titleHighlight": "together",
+    "subtitle": "An internship opportunity or just a question? Feel free to reach out.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "github": "GitHub",
+    "sendEmail": "Send an email"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with React"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  }
+}

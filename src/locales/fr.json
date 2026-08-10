@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Suzanno Irwin MAHARAVO — Développeur informatique"
+  },
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "cmd": "whoami",
+    "greeting": "Bonjour, je suis",
+    "role": "Développeur informatique — Web, Mobile & Réseaux",
+    "tagline": "Étudiant en informatique à l'ENI Fianarantsoa, je conçois des applications web et mobiles robustes et je m'intéresse de près aux réseaux et aux systèmes. Dynamisme, rigueur et curiosité technique guident chacun de mes projets.",
+    "ctaProjects": "Voir mes projets",
+    "ctaContact": "Me contacter",
+    "location": "Fianarantsoa, Madagascar",
+    "available": "Disponible pour un stage",
+    "nodeWeb": "Web",
+    "nodeMobile": "Mobile",
+    "nodeSystems": "Systèmes",
+    "nodeNetwork": "Réseaux",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "eyebrow": "Présentation",
+    "title": "À propos",
+    "titleHighlight": "de moi",
+    "bio": "Étudiant en informatique à l'université ENI, je cherche à enrichir mes compétences professionnelles au sein d'un établissement où je pourrai apporter mon dynamisme et mon savoir-faire technique tout en contribuant à des projets innovants.",
+    "factsTitle": "En bref",
+    "factLocation": "Localisation",
+    "factDob": "Date de naissance",
+    "factLanguages": "Langues",
+    "factInterests": "Centres d'intérêt",
+    "dobValue": "13 septembre 2005",
+    "languagesValue": "Français, Anglais",
+    "interestsValue": "Lecture, Football",
+    "educationTitle": "Diplômes et formations",
+    "education": [
+      {
+        "degree": "Licence Informatique Générale",
+        "school": "École Nationale d'Informatique (ENI), Fianarantsoa",
+        "period": "Janv. 2023 — Déc. 2025",
+        "detail": "Formation en informatique générale, filière ingénierie logicielle et systèmes."
+      },
+      {
+        "degree": "Baccalauréat",
+        "school": "Lycée Rakotoarisoa, Ambositra",
+        "period": "2022 — 2023",
+        "detail": "Série scientifique."
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "Stack technique",
+    "title": "Compétences",
+    "titleHighlight": "techniques",
+    "subtitle": "Un profil hybride entre développement logiciel et administration réseau.",
+    "categories": [
+      {
+        "name": "Langages de programmation",
+        "items": ["C++", "C#", "Java", "Python", "JavaScript", "TypeScript"]
+      },
+      {
+        "name": "Frameworks & bibliothèques",
+        "items": ["Node.js", "React.js", "Spring Boot", "React Native"]
+      },
+      {
+        "name": "Méthodes de conception",
+        "items": ["MERISE", "UML", "Scrum / Agile"]
+      },
+      {
+        "name": "Bases de données",
+        "items": ["PostgreSQL", "MySQL"]
+      },
+      {
+        "name": "Outils réseaux",
+        "items": ["Wireshark", "Zabbix", "Nagios", "Fail2Ban", "Asterisk"]
+      },
+      {
+        "name": "Systèmes d'exploitation",
+        "items": ["Windows", "Linux / Unix"]
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Parcours",
+    "title": "Expérience",
+    "titleHighlight": "professionnelle",
+    "items": [
+      {
+        "role": "Stagiaire développeur",
+        "company": "Douane Toamasina",
+        "place": "Toamasina, Madagascar",
+        "period": "Sept. 2025 — Nov. 2025",
+        "tasks": [
+          "Développement d'un système de Suivi des Performances Économiques et Efficacités Douanières (SPEED)."
+        ]
+      },
+      {
+        "role": "Stagiaire développeur",
+        "company": "Ministère de l'Économie et des Finances — Service Régional du Budget Amoron'i Mania",
+        "place": "Ambositra, Madagascar",
+        "period": "Sept. 2024 — Nov. 2024",
+        "tasks": [
+          "Développement d'une application web de gestion du remboursement des frais médicaux.",
+          "Développement d'une application de suivi budgétaire."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Réalisations",
+    "title": "Mes",
+    "titleHighlight": "projets",
+    "subtitle": "Un aperçu de mes travaux, entre développement logiciel et infrastructures réseau.",
+    "placeholder": "Description à venir.",
+    "viewGithub": "Voir sur GitHub",
+    "viewProfile": "Voir tous mes projets sur GitHub",
+    "items": [
+      {
+        "title": "Asterisk — Téléphonie IP",
+        "tech": ["Asterisk", "VoIP", "Linux"],
+        "description": ""
+      },
+      {
+        "title": "Télécommande réseau",
+        "tech": ["Réseaux", "Administration à distance"],
+        "description": ""
+      },
+      {
+        "title": "Gestion de clinique",
+        "tech": ["C++"],
+        "description": ""
+      },
+      {
+        "title": "Gestion des employés",
+        "tech": ["PHP", "JavaScript"],
+        "description": ""
+      },
+      {
+        "title": "Rendez-vous professionnels (mobile)",
+        "tech": ["Mobile", "Géolocalisation", "Cartographie"],
+        "description": ""
+      },
+      {
+        "title": "SPEED — Suivi douanier",
+        "tech": ["Web", "Base de données"],
+        "description": ""
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Discutons",
+    "titleHighlight": "ensemble",
+    "subtitle": "Une opportunité de stage ou une question ? N'hésitez pas à me contacter.",
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Localisation",
+    "github": "GitHub",
+    "sendEmail": "Envoyer un email"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "builtWith": "Conçu avec React"
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre"
+  }
+}
