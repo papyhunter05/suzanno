@@ -700,8 +700,8 @@
 .project-card__title { font-size: 17px; color: var(--text); }
 .project-card__desc {
   color: var(--text-muted);
-  font-size: 14px;
-  line-height: 1.65;
+  font-size: 12px;
+  line-height: 1.5;
   flex: 1;
 }
 .project-card__desc em { color: var(--text-faint); font-style: italic; }

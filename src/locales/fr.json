@@ -17,7 +17,7 @@
     "ctaProjects": "Voir mes projets",
     "ctaContact": "Me contacter",
     "location": "Fianarantsoa, Madagascar",
-    "available": "Disponible pour un stage",
+    "available": "Disponible pour un emploi",
     "nodeWeb": "Web",
     "nodeMobile": "Mobile",
     "nodeSystems": "Systèmes",
@@ -123,17 +123,17 @@
       {
         "title": "Asterisk — Téléphonie IP",
         "tech": ["Asterisk", "VoIP", "Linux"],
-        "description": ""
+        "description": "Mise en place d'un système de téléphonie IP interne basé sur Asterisk (PBX open source) sous Linux. Configuration des comptes SIP, des plans de numérotation (dialplan) et des files d'attente pour la répartition des appels entrants. Gestion de la messagerie vocale, des transferts d'appels et de la mise en relation entre postes internes et lignes externes via un trunk SIP. Le projet inclut la sécurisation des connexions SIP (fail2ban, restrictions IP) et le suivi des appels via les journaux (CDR)."
       },
       {
         "title": "Télécommande réseau",
-        "tech": ["Réseaux", "Administration à distance"],
-        "description": ""
+        "tech": ["Réseaux", "Administration à distance", "NodeJs"],
+        "description": "Développement d'un outil d'administration à distance permettant de superviser et de piloter des machines sur un réseau local depuis une interface centralisée en Node.js. Le système permet d'exécuter des commandes, de consulter l'état des postes (connectivité, ressources) et de gérer plusieurs machines simultanément via une communication réseau en temps réel (sockets). Le projet couvre la configuration réseau, la sécurisation des connexions distantes et la gestion des permissions d'accès."
       },
       {
         "title": "Gestion de clinique",
         "tech": ["C++"],
-        "description": ""
+        "description": "Application desktop de gestion de clinique développée en C++ avec Qt 6. Elle couvre les patients, les rendez-vous, les dossiers médicaux et la facturation."
       },
       {
         "title": "Gestion des employés",
@@ -142,13 +142,13 @@
       },
       {
         "title": "Rendez-vous professionnels (mobile)",
-        "tech": ["Mobile", "Géolocalisation", "Cartographie"],
-        "description": ""
+        "tech": ["Mobile", "Géolocalisation", "Cartographie" ,"React Native", "Expo", "PHP", "MySQL"],
+        "description": "Application mobile React Native sous Expo, connectée à une API PHP/PDO et une base MySQL/MariaDB. Elle permet aux clients de rechercher des travailleurs, consulter leurs disponibilités, réserver un créneau et laisser une évaluation."
       },
       {
         "title": "SPEED — Suivi douanier",
-        "tech": ["Web", "Base de données"],
-        "description": ""
+        "tech": ["Web", "Base de données", "React", "Node.js", "Express", "MySQL"],
+        "description": "Application web de suivi des performances douanières, développée avec React, Node.js/Express et MySQL/MariaDB. Elle propose une authentification JWT, la gestion des manifestes, marchandises, déclarations, ventes et contentieux, ainsi que des tableaux de bord statistiques et des prévisions administratives."
       }
     ]
   },

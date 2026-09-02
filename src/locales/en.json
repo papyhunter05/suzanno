@@ -17,7 +17,7 @@
     "ctaProjects": "View my projects",
     "ctaContact": "Get in touch",
     "location": "Fianarantsoa, Madagascar",
-    "available": "Available for an internship",
+    "available": "Available for a job",
     "nodeWeb": "Web",
     "nodeMobile": "Mobile",
     "nodeSystems": "Systems",
@@ -123,17 +123,17 @@
       {
         "title": "Asterisk — IP Telephony",
         "tech": ["Asterisk", "VoIP", "Linux"],
-        "description": ""
+        "description": "Implementation of an internal IP telephony system based on Asterisk, an open-source PBX, running on Linux. The project includes SIP account and dial plan configuration, call queues, voicemail, call transfers, and connections between internal extensions and external lines through a SIP trunk. It also covers SIP security with Fail2ban and IP restrictions, as well as call monitoring through CDR logs."
       },
       {
         "title": "Remote network control",
-        "tech": ["Networking", "Remote administration"],
-        "description": ""
+        "tech": ["Networking", "Remote administration", "Node.js"],
+        "description": "Development of a remote administration tool for monitoring and controlling machines on a local network through a centralized Node.js interface. The system can execute commands, check device status and resources, and manage multiple machines simultaneously through real-time socket communication."
       },
       {
         "title": "Clinic management system",
         "tech": ["C++"],
-        "description": ""
+        "description": "Desktop clinic management application developed in C++ with Qt 6. It covers patients, appointments, medical records, and billing."
       },
       {
         "title": "Employee management platform",
@@ -142,13 +142,13 @@
       },
       {
         "title": "Professional appointments (mobile)",
-        "tech": ["Mobile", "Geolocation", "Maps"],
-        "description": ""
+        "tech": ["Mobile", "Geolocation", "Maps", "React Native", "Expo", "PHP", "MySQL"],
+        "description": "React Native mobile application built with Expo, connected to a PHP/PDO API and a MySQL/MariaDB database. It allows clients to find workers, check availability, book a time slot, and leave a review."
       },
       {
         "title": "SPEED — Customs monitoring",
-        "tech": ["Web", "Database"],
-        "description": ""
+        "tech": ["Web", "Database", "React", "Node.js", "Express", "MySQL"],
+        "description": "Web application for monitoring customs performance, built with React, Node.js/Express, and MySQL/MariaDB. It provides JWT authentication, management of manifests, goods, declarations, auctions, and disputes, along with statistical dashboards and admin forecasts."
       }
     ]
   },
