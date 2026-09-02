@@ -5,6 +5,15 @@ import { PhoneCall, Router, HeartPulse, Users, Smartphone, BarChart3, Github, Ar
 
 const ICONS = [PhoneCall, Router, HeartPulse, Users, Smartphone, BarChart3]
 
+const PROJECT_REPOS = [
+  '',
+  'https://github.com/papyhunter05/telecommande-reseau',
+  '',
+  '',
+  'https://github.com/papyhunter05/rdv_final',
+  'https://github.com/papyhunter05/campusoa',
+]
+
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
   show: (i = 0) => ({
@@ -36,6 +45,7 @@ export default function Projects() {
         <div className="projects__grid">
           {items.map((p, i) => {
             const Icon = ICONS[i % ICONS.length]
+            const repoUrl = PROJECT_REPOS[i]
             return (
               <motion.article
                 className="project-card"
@@ -49,7 +59,21 @@ export default function Projects() {
               >
                 <div className="project-card__head">
                   <span className="project-card__icon"><Icon size={20} /></span>
-                  <span className="project-card__index mono">{String(i + 1).padStart(2, '0')}</span>
+                  <div className="project-card__meta">
+                    {repoUrl && (
+                      <a
+                        className="project-card__github"
+                        href={repoUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${t('projects.viewGithub')}: ${p.title}`}
+                        title={t('projects.viewGithub')}
+                      >
+                        <Github size={16} />
+                      </a>
+                    )}
+                    <span className="project-card__index mono">{String(i + 1).padStart(2, '0')}</span>
+                  </div>
                 </div>
                 <h3 className="project-card__title">{p.title}</h3>
                 <p className="project-card__desc">

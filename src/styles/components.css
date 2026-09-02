@@ -697,6 +697,21 @@
   color: var(--text-faint);
   font-size: 12.5px;
 }
+.project-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.project-card__github {
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+.project-card__github:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
 .project-card__title { font-size: 17px; color: var(--text); }
 .project-card__desc {
   color: var(--text-muted);

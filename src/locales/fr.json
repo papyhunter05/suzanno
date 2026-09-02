@@ -132,13 +132,13 @@
       },
       {
         "title": "Gestion de clinique",
-        "tech": ["C++"],
-        "description": "Application desktop de gestion de clinique développée en C++ avec Qt 6. Elle couvre les patients, les rendez-vous, les dossiers médicaux et la facturation."
+        "tech": ["C++", "PostgreSQL"],
+        "description": "Application desktop de gestion de clinique développée en C++ avec Qt 6, selon une architecture MVC/MVVM et un Repository pattern. Elle permet de gérer les patients, l'historique médical, les rendez-vous, les prescriptions, les résultats, la facturation et les paiements. Le projet intègre une base PostgreSQL, une authentification par rôles, la génération de documents PDF et des tests unitaires avec Google Test."
       },
       {
         "title": "Gestion des employés",
         "tech": ["PHP", "JavaScript"],
-        "description": ""
+        "description": "Application web de gestion des employés développée avec PHP et JavaScript. Elle centralise les informations du personnel, facilite la consultation et la mise à jour des profils, et propose une interface simple pour organiser et suivre les données des employés."
       },
       {
         "title": "Rendez-vous professionnels (mobile)",
