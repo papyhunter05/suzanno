@@ -132,13 +132,13 @@
       },
       {
         "title": "Clinic management system",
-        "tech": ["C++"],
-        "description": "Desktop clinic management application developed in C++ with Qt 6. It covers patients, appointments, medical records, and billing."
+        "tech": ["C++","PostgreSQL"],
+        "description": "Desktop clinic management application developed in C++ with Qt 6, following an MVC/MVVM architecture and a Repository pattern. It manages patients, medical histories, appointments, prescriptions, test results, billing, and payments. The project includes PostgreSQL support, role-based authentication, PDF document generation, and unit testing with Google Test."
       },
       {
         "title": "Employee management platform",
         "tech": ["PHP", "JavaScript"],
-        "description": ""
+        "description": "Web-based employee management application developed with PHP and JavaScript. It centralizes staff information, makes profile updates easier, and provides a simple interface for organizing and tracking employee data."
       },
       {
         "title": "Professional appointments (mobile)",
